@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 import json
+import extract_course_list as ecl
 
 def main():
     # Load environment variables
@@ -17,9 +18,10 @@ def main():
     # Load your course data
     with open("agreements_25-26/ucb_25-26_cs.json", "r") as file:
         data = json.load(file)
-
+    """
+    ----------Test function:----------
     def search_courses(course_code):
-        """Search for DVC courses that match the given course code."""
+        #Search for DVC courses that match the given course code.
         results = []
         for category in data.get("Berkeley", []):
             if "Courses" in category:
@@ -41,19 +43,20 @@ def main():
                                 "uc_course": uc_course
                             })
         return results
-
+    """
     # User query
-    user_query = "Find courses that transfer to UC Berkeley for Computer Science"
-    course_results = search_courses("MATH")  # Search for math courses
+    print("Ask DVC Chatbot anything related to UC transfer requirements: ")
+    user_query = input()
+    print()
 
     # Pass results back to the model for formatting
-    context = f"Here are the matching DVC courses that transfer to UC Berkeley: {course_results}"
 
+    context = f"Here are the matching DVC courses that transfer to each corresponding UC: {ecl.ucd_map}, {ecl.uci_data}, {ecl.ucd_data}, {ecl.ucsd_data}"
     try:
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
-                {"role": "system", "content": "You are a helpful DVC course advisor that helps students understand which courses transfer to UC Berkeley for Computer Science major."},
+                {"role": "system", "content": "You are a helpful DVC course advisor that helps students understand which courses transfer to UCs for Computer Science major."},
                 {"role": "user", "content": user_query},
                 {"role": "assistant", "content": context}
             ]
