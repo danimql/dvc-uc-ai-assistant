@@ -1,0 +1,187 @@
+{
+    "Irvine": [
+        {
+            "Year": "2025-2026"
+        },
+        {
+            "Category": "Major Preparation Courses Required for Transfer",
+            "Minimum_Required": "all",
+            "Courses": [
+                {
+                    "UC_Irvine": {
+                        "Course_Code": "I&CSCI-31/32/33",
+                        "Title": "Introduction to Programming/Programming with Software Libraries/Intermediate Programming",
+                        "Units": 12
+                    },
+                    "DVC": {
+                        "Course_Code": "COMSC-110/165/200/210",
+                        "Title": "Introduction to Programming/Advanced Programming with C and C++/Object Oriented Programming C++/Program Design and Data Structures",
+                        "Units": 20
+                    }
+                },
+                {
+                    "UC_Irvine": {
+                        "Course_Code": "MATH-2A",
+                        "Title": "Single-Variable Calculus",
+                        "Units": 4
+                    },
+                    "DVC": [
+                        {
+                            "Course_Code": "MATH-192",
+                            "Title": "Analytic Geometry and Calculus I",
+                            "Units": 5,
+                            "Note": "UC credit limitation applies; refer to UC-transferability list"
+                        },
+                        {
+                            "Course_Code": "MATH-182",
+                            "Title": "Calculus for Management, Life Science, and Social Science I",
+                            "Units": 4,
+                            "Note": "UC credit limitation applies; refer to UC-transferability list"
+                        }
+                    ]
+                },
+                {
+                    "UC_Irvine": {
+                        "Course_Code": "MATH-2B",
+                        "Title": "Single-Variable Calculus",
+                        "Units": 4
+                    },
+                    "DVC": {
+                        "Course_Code": "MATH-193",
+                        "Title": "Analytic Geometry and Calculus II",
+                        "Units": 5
+                    }
+                }
+            ]
+        },
+        {
+            "Category": "Additional Approved Courses for the Major",
+            "Minimum_Required": 1,
+            "Courses": [
+                {
+                    "UC_Irvine": {
+                        "Course_Code": "I&CSCI-45C",
+                        "Title": "Programming in C/C++ as a Second Language",
+                        "Units": 4
+                    },
+                    "DVC": [
+                        {
+                            "Course_Code": "COMSC-110/165/200/210",
+                            "Title": "Introduction to Programming/Advanced Programming with C and C++/Object Oriented Programming C++/Program Design and Data Structures",
+                            "Units": 20
+                        }
+                    ]
+                },
+                {
+                    "UC_Irvine": {
+                        "Course_Code": "I&CSCI-46",
+                        "Title": "Data Structure Implementation and Analysis",
+                        "Units": 4
+                    },
+                    "DVC": {
+                        "Note": "No Course Articulated"
+                    }
+                },
+                {
+                    "UC_Irvine": {
+                        "Course_Code": "I&CSCI-51",
+                        "Title": "Introductory Computer Organization",
+                        "Units": 6
+                    },
+                    "DVC": {
+                        "Course_Code": "COMSC-260",
+                        "Title": "Assembly Language Programming/Computer Organization",
+                        "Units": 4
+                    }
+                },
+                {
+                    "UC_Irvine": {
+                        "Course_Code": "I&CSCI-53",
+                        "Title": "Principles in System Design",
+                        "Units": 4
+                    },
+                    "DVC": {
+                        "Note": "No Course Articulated"
+                    }
+                },
+                {
+                    "UC_Irvine": {
+                        "Course_Code": "IN4MATX-43",
+                        "Title": "Introduction to Software Engineering",
+                        "Units": 4
+                    },
+                    "DVC": {
+                        "Note": "No Course Articulated"
+                    }
+                },
+                {
+                    "UC_Irvine": {
+                        "Course_Code": "I&CSCI-6B",
+                        "Title": "Boolean Logic and Discrete Structures",
+                        "Units": 4
+                    },
+                    "DVC": {
+                        "Note": "No Course Articulated"
+                    }
+                },
+                {
+                    "UC_Irvine": {
+                        "Course_Code": "I&CSCI-6D",
+                        "Title": "Discrete Mathematics for Computer Science",
+                        "Units": 4
+                    },
+                    "DVC": [
+                        {
+                            "Course_Code": "COMSC-230",
+                            "Title": "Discrete Mathematical Structures for Computer Science",
+                            "Units": 3
+                        },
+                        {
+                            "Course_Code": "MATH-195",
+                            "Title": "Discrete Mathematics",
+                            "Units": 4
+                        }
+                    ]
+                },
+                {
+                    "UC_Irvine": {
+                        "Course_Code": "STATS-67",
+                        "Title": "Introduction to Probability and Statistics for Computer Science",
+                        "Units": 4
+                    },
+                    "DVC": {
+                        "Note": "No Course Articulated"
+                    }
+                }
+            ]
+        },
+        {
+            "Category": "Additional Math",
+            "Minimum_Required": 1,
+            "Courses": [
+                {
+                    "UC_Irvine": {
+                        "Course_Code": "MATH-3A",
+                        "Title": "Introduction to Linear Algebra",
+                        "Units": 4
+                    },
+                    "DVC": {
+                        "Course_Code": "MATH-194",
+                        "Title": "Linear Algebra",
+                        "Units": 3
+                    }
+                },
+                {
+                    "UC_Irvine": {
+                        "Course_Code": "I&CSCI-6N",
+                        "Title": "Computational Linear Algebra",
+                        "Units": 4
+                    },
+                    "DVC": {
+                        "Note": "No Course Articulated"
+                    }
+                }
+            ]
+        }
+    ]
+}

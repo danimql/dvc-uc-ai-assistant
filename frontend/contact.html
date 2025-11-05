@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DVC → UC Transfer Assistant · Contact</title>
+  <link rel="stylesheet" href="static/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1 class="brand">DVC → UC Transfer Assistant</h1>
+      <p class="sub">Questions, bugs, or suggestions? Reach out.</p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="chat.html">Chat</a>
+      <a href="how-to.html">How to use</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="card">
+      <h2>Contact</h2>
+      <p class="lead">Send a quick note or open an issue on GitHub.</p>
+
+      <label for="email">Your email</label>
+      <input id="email" type="email" placeholder="you@example.com" />
+
+      <label for="msg" style="margin-top:1rem;">Message</label>
+      <textarea id="msg" rows="6" placeholder="How can we help?"></textarea>
+
+      <div style="margin-top:.75rem; display:flex; gap:.6rem; flex-wrap:wrap;">
+        <button type="button" onclick="alert('This demo does not send email. Use GitHub Issues instead 😊')">Send</button>
+        <a href="https://github.com/your-org/your-repo/issues" target="_blank">
+          <button class="secondary" type="button">GitHub Issues</button>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 DVC → UC Transfer Assistant • <a href="https://github.com/your-org/your-repo" target="_blank">GitHub</a>
+  </footer>
+</body>
+</html>

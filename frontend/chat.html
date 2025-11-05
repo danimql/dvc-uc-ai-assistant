@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DVC → UC Transfer Assistant · Chat</title>
+  <link rel="stylesheet" href="static/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1 class="brand">DVC → UC Transfer Assistant</h1>
+      <p class="sub">Chat with the bot to get UC mappings.</p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="chat.html" class="active">Chat</a>
+      <a href="how-to.html">How to use</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="card">
+      <h2>Chat</h2>
+      <p class="lead">Example: <code>major preparation only for UC Berkeley CS and UC Davis</code></p>
+
+      <div class="chat-wrap">
+        <div id="history" aria-live="polite"></div>
+
+        <div style="display:grid; grid-template-columns:1fr auto; gap:.5rem;">
+          <input id="prompt" placeholder='Type a question…' />
+          <button id="send">Send</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 DVC → UC Transfer Assistant • <a href="https://github.com/your-org/your-repo" target="_blank">GitHub</a>
+  </footer>
+
+  <script src="static/chat.js"></script>
+</body>
+</html>
