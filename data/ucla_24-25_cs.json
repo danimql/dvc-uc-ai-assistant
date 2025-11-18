@@ -1,0 +1,247 @@
+{
+    "Los Angeles": [
+        {
+            "Year": "2024-2025"
+        },
+        {
+            "Category": "Lower Division Major Requirements",
+            "Minimum_Required": "all",
+            "Courses": [
+                {
+                    "UC_LA": {
+                        "Course_Code": "COMSCI-31",
+                        "Title": "Introduction to Computer Science I",
+                        "Units": 4
+                    },
+                    "DVC": [
+                        {
+                            "Course_Code": "COMSC-165",
+                            "Title": "Advanced Programming with C and C++",
+                            "Units": 4
+                        },
+                        {
+                            "Course_Code": "COMSC-200",
+                            "Title": "Object Oriented Programming C++",
+                            "Units": 4
+                        }
+                    ]
+                },
+                {
+                    "UC_LA": {
+                        "Course_Code": "COMSCI-32",
+                        "Title": "Introduction to Computer Science II",
+                        "Units": 4
+                    },
+                    "DVC": {
+                        "Course_Code": "COMSC-210",
+                        "Title": "Program Design and Data Structures",
+                        "Units": 4
+                    }
+                },
+                {
+                    "UC_LA": {
+                        "Course_Code": "COMSCI-33",
+                        "Title": "Introduction to Computer Organization",
+                        "Units": 5
+                    },
+                    "DVC": {
+                        "Course_Code": "COMSC-260",
+                        "Title": "Assembly Language Programming/Computer Organization",
+                        "Units": 4
+                    }
+                },
+                {
+                    "UC_LA": {
+                        "Course_Code": "COMSCI-35L",
+                        "Title": "Software Construction Laboratory",
+                        "Units": 4
+                    },
+                    "DVC": {
+                        "Note": "No Course Articulated"
+                    }
+                }
+            ]
+        },
+        {
+            "Category": "Mathematics (Required for Admission)",
+            "Minimum_Required": "all",
+            "Courses": [
+                {
+                    "UC_LA": {
+                        "Course_Code": "MATH-31A",
+                        "Title": "Differential and Integral Calculus",
+                        "Units": 4
+                    },
+                    "DVC": {
+                        "Course_Code": "MATH-192",
+                        "Title": "Analytic Geometry and Calculus I",
+                        "Units": 5
+                    }
+                },
+                {
+                    "UC_LA": {
+                        "Course_Code": "MATH-31B",
+                        "Title": "Integration and Infinite Series",
+                        "Units": 4
+                    },
+                    "DVC": {
+                        "Course_Code": "MATH-193",
+                        "Title": "Analytic Geometry and Calculus II",
+                        "Units": 5
+                    }
+                },
+                {
+                    "UC_LA": {
+                        "Course_Code": "MATH-32A",
+                        "Title": "Calculus of Several Variables",
+                        "Units": 4
+                    },
+                    "DVC": {
+                        "Course_Code": "MATH-292",
+                        "Title": "Analytic Geometry and Calculus III",
+                        "Units": 5
+                    }
+                },
+                {
+                    "UC_LA": {
+                        "Course_Code": "MATH-32B",
+                        "Title": "Calculus of Several Variables",
+                        "Units": 4
+                    },
+                    "DVC": {
+                        "Course_Code": "MATH-292",
+                        "Title": "Analytic Geometry and Calculus III",
+                        "Units": 5
+                    }
+                },
+                {
+                    "UC_LA": {
+                        "Course_Code": "MATH-33A",
+                        "Title": "Linear Algebra and Applications",
+                        "Units": 4
+                    },
+                    "DVC": {
+                        "Course_Code": "MATH-194",
+                        "Title": "Linear Algebra",
+                        "Units": 3
+                    }
+                },
+                {
+                    "UC_LA": {
+                        "Course_Code": "MATH-33B",
+                        "Title": "Differential Equations",
+                        "Units": 4
+                    },
+                    "DVC": {
+                        "Course_Code": "MATH-294",
+                        "Title": "Differential Equations",
+                        "Units": 5
+                    }
+                },
+                {
+                    "UC_LA": {
+                        "Course_Code": "MATH-61",
+                        "Title": "Introduction to Discrete Structures",
+                        "Units": 4
+                    },
+                    "DVC": {
+                        "Course_Code": "MATH 195",
+                        "Title": "Discrete Mathematics",
+                        "Units": 4
+                    }
+                }
+            ]
+        },
+        {
+            "Category": "Science Sequence",
+            "Minimum_Required": "all",
+            "Courses": [
+                {
+                    "UC_LA": {
+                        "Course_Code": "PHYSICS 1A/1B/1C",
+                        "Title": "Physics for Scientists and Engineers (Sequence)",
+                        "Units": 15
+                    },
+                    "DVC": {
+                        "Course_Code": "PHYS 130/230/231",
+                        "Title": "Physics for Engineers and Scientists A/B/C",
+                        "Units": 5
+                    }
+                }
+            ]
+        },
+        {
+            "Category": "English Composition",
+            "Minimum_Required": 1,
+            "Courses": [
+                {
+                    "UC_LA": {
+                        "Course_Code": "ENGCOMP 3",
+                        "Title": "English Composition, Rhetoric, and Language",
+                        "Units": 5
+                    },
+                    "DVC": [
+                        {
+                            "Course_Code": "ENGL 122",
+                            "Title": "First-Year College Writing and Reading",
+                            "Units": 3
+                        },
+                        {
+                            "Course_Code": "ENGL 122AL",
+                            "Title": "First-Year College English Intensive for Multilingual Student",
+                            "Units": 5
+                        },
+                        {
+                            "Course_Code": "ENGL 122AM",
+                            "Title": "First-Year College English with Support for Multilingual Students",
+                            "Units": 4
+                        },
+                        {
+                            "Course_Code": "ENGL 122L",
+                            "Title": "First-Year College Writing and Reading With Additional Support",
+                            "Units": 5
+                        },
+                        {
+                            "Course_Code": "ENGL 122M",
+                            "Title": "First-Year College Writing and Reading With Support",
+                            "Units": 4
+                        },
+                        {
+                            "Course_Code": "ENGL 122X",
+                            "Title": "Year-Long First-Year College Writing and Reading, Part II",
+                            "Units": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Category": "Computer Science",
+            "Minimum_Required": 1,
+            "Courses": [
+                {
+                    "UC_LA": {
+                        "Note": "Preferred C++ programming Courses."
+                    },
+                    "DVC": [
+                        {
+                            "Course_Code": "COMSC 110",
+                            "Title": "Introduction to Programming",
+                            "Units": 4
+                        },
+                        {
+                            "Course_Code": "COMSC 165",
+                            "Title": "Advanced Programming with C and C++",
+                            "Units": 4
+                        },
+                        {
+                            "Course_Code": "COMSC 200",
+                            "Title": "Object Oriented Programming C++",
+                            "Units": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
